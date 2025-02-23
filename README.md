@@ -1,24 +1,31 @@
-Description  
-This project focuses on analyzing an e-commerce dataset using Google BigQuery and Power BI. The dataset contains various tables, including customer details, geolocation data, order transactions, payments, products, and seller information. The objective is to clean, transform, and join these tables to gain insights into sales performance, customer behavior, and regional trends.  
+# E-Commerce Sales Analysis in Brazil  
 
-Dataset  
-The dataset used for this project can be accessed from Kaggle:  
-(https://www.kaggle.com/datasets/abdelrahmanalimo/e-commerce-dataset?resource=download)  
+## Description  
+This project analyzes e-commerce sales in Brazil using **Google BigQuery** for data processing and **Power BI** for visualization. The dataset includes customer transactions, product details, seller performance, and regional sales data. The objective is to gain insights into revenue trends, top-selling products, and market distribution across different regions in Brazil.  
 
-SQL Data Manipulation  
-The data_manipulation.sql file contains SQL queries designed for data exploration, cleaning, and transformation in Google BigQuery. Key steps include:  
-- Retrieving sample records from each table.  
-- Counting the total number of records in each dataset.  
-- Cleaning missing values and standardizing data formats.  
-- Creating calculated fields such as total order cost.  
-- Merging tables to form a comprehensive dataset for further analysis.  
+## Dataset  
+The dataset is sourced from Kaggle and can be accessed here:  
+[📌 E-Commerce Dataset](https://www.kaggle.com/datasets/abdelrahmanalimo/e-commerce-dataset?resource=download)  
 
-Power BI Dashboard  
-The Power BI dashboard visualizes key insights derived from the cleaned and processed dataset. It includes:  
-- Sales Performance Analysis: Total revenue, order volume, and payment trends over time.  
-- Customer Insights: Customer distribution by location, spending patterns, and order frequency.  
-- Product Analysis: Best-selling products, average price trends, and product category performance.  
-- Seller Performance: Sales distribution by sellers, revenue contribution, and regional market trends.  
-- Geographical Trends: Mapping customer and seller locations to analyze regional variations in sales.  
+## SQL Data Processing  
+The `data_manipulation.sql` file contains queries used to:  
+- Clean and transform raw data into structured format  
+- Standardize missing values and correct data inconsistencies  
+- Compute **total revenue, average order value, and sales volume**  
+- Merge customer, seller, and order data for comprehensive analysis  
 
-This dashboard helps stakeholders make data-driven decisions by providing an interactive and visual representation of business performance.
+## Power BI Dashboard  
+The Power BI dashboard presents key insights, including:  
+- **Total Revenue & Sales Trends:** Monthly revenue performance across regions  
+- **Top-Selling Products:** Analysis of best-selling product categories  
+- **Regional Market Insights:** Mapping customer purchases by state  
+- **Seller Performance:** Ranking sellers based on revenue contribution  
+
+This project provides an in-depth look at the **Brazilian e-commerce market** and helps identify patterns in consumer spending, seller efficiency, and regional sales performance.  
+
+## How to Use  
+1. Clone this repository and download the Power BI file.  
+2. Open `E-Commerce Sales.pbix` in Power BI.  
+3. Explore dashboards and interact with filters for deeper insights.  
+
+---
