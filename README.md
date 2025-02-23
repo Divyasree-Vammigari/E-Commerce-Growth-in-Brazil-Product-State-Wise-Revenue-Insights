@@ -1,4 +1,4 @@
-# E-Commerce Sales Analysis in Brazil  
+# E-Commerce Growth in Brazil: Product & State-Wise Revenue Insights 
 
 ## Description  
 This project analyzes e-commerce sales in Brazil using **Google BigQuery** for data processing and **Power BI** for visualization. The dataset includes customer transactions, product details, seller performance, and regional sales data. The objective is to gain insights into revenue trends, top-selling products, and market distribution across different regions in Brazil.  
